@@ -9,10 +9,10 @@ plan:
       - id: 0
         transactions:
            - contract-publish:
-                contract-name: open-gov-v2
+                contract-name: fund-treasury-pool
                 expected-sender: ST16FECHZJPM4Z95D0Y2G7MSPGK0JHHCAE3JT049N
-                cost: 234588261
-                path: "contracts\\open-gov.clar"
+                cost: 1620
+                path: "contracts\\fund-treasury-pool.clar"
                 anchor-block-only: true
                 clarity-version: 2
         epoch: "2.1"

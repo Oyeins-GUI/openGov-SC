@@ -5,18 +5,28 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
-[contracts.create-event]
-path = 'contracts/create-event.clar'
+[contracts.delegate-voting]
+path = 'contracts/delegate-voting.clar'
 clarity_version = 2
 epoch = 2.1
 
-[contracts.dislike-events]
-path = 'contracts/dislike-events.clar'
+[contracts.events-create]
+path = 'contracts/events-create.clar'
 clarity_version = 2
 epoch = 2.1
 
-[contracts.like-events]
-path = 'contracts/like-events.clar'
+[contracts.events-dislike]
+path = 'contracts/events-dislike.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.events-like]
+path = 'contracts/events-like.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.fund-treasury-pool]
+path = 'contracts/fund-treasury-pool.clar'
 clarity_version = 2
 epoch = 2.1
 
